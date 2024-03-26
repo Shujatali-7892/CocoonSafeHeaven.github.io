@@ -722,7 +722,7 @@ label {
   width: 100%;
   left: 0;
   top: 0;
-  background-color: rgba(0, 0, 0, 0.495);
+  background-color: rgba(0, 0, 0, 0.282);
 }
 
 .slide-inner .slide-span span {
@@ -6051,12 +6051,13 @@ abbr[title] {
 }
 
 /* Pre School start */
-.pagetitlearea {
-  background-image: url("../img/new/1600x797.jpg");
+.div-Montessori .pagetitlearea {
+  background-image: url("../img/Montessori/bg-header2.jpg");
+  
 }
-.pagetitlearea {
+/* .pagetitlearea {
   background-image: url("../img/new/1600x797.jpg");
-}
+} */
 .green-sldr {
   background-image: linear-gradient(
     145deg,
@@ -6621,7 +6622,7 @@ abbr[title] {
   background-repeat: no-repeat;
 }
 .daycare-div .pagetitlearea {
-  background-image: url("../img/new/daycare.jpg");
+  background-image: url("../img/Daycare/daycarebg.jpg");
 }
 .admissionProcess .white-title h1 {
   color: white !important;
@@ -6875,7 +6876,7 @@ abbr[title] {
 @media (max-width: 991px) {
   .admissionProcess .road-map-main .road-map-wrapper .road-map-card {
     width: 100%;
-    margin-top: 30px;
+    margin-top: 50px;
     position: unset;
   }
 
@@ -7420,4 +7421,22 @@ abbr[title] {
     padding: 1rem 0.5rem !important;
     margin: 0.5rem 0 !important;
   }
+}
+.staff-one{
+  background-image: linear-gradient(145deg, #99bc85 1%, #80bcbd 50%);
+} 
+.staff-two .teacher-single-info p{
+  color: white !important;
+} 
+.staff-two{
+ color: white !important;
+  background-image: -moz-linear-gradient(0deg, rgb(144 98 157) 0%, rgb(100 57 198) 100%);
+    background-image: -webkit-linear-gradient(0deg, rgb(162 117 130) 0%, rgb(102 54 215) 100%);
+    background-image: -ms-linear-gradient(0deg, rgb(98 50 214) 0%, rgb(142, 207, 53) 100%);
+
+}
+.staff-three {
+  background-image: -moz-linear-gradient(0deg, rgb(255, 79, 88) 0%, rgb(228 190 98) 100%);
+  background-image: -webkit-linear-gradient(0deg, rgb(79 185 255) 0%, rgb(156 247 64) 100%);
+  background-image: -ms-linear-gradient(0deg, rgb(255, 79, 88) 0%, rgb(255, 180, 0) 100%);
 }

@@ -37,6 +37,9 @@
     }
 }
 @media (min-width: 992px) {
+    .div-Montessori .pagetitlearea {
+        /* height: 45vh; */
+    }
     .img-div {
         width: 300px;
         height: 150px;
@@ -251,6 +254,29 @@
  
 /* SM Device :320px. */
 @media (max-width: 767px) {
+    .approach-area .nav-tabs .nav-link:focus,
+    .approach-area .nav-tabs .nav-link,
+     .approach-area .nav-tabs .nav-link:hover ,
+    .approach-area .nav-tabs .nav-link.active { 
+        font-size: 12px;
+        padding: 10px 10px; 
+    }
+    .thm-btn {
+         font-size: 12px;
+        padding: 15px 15px;
+    }
+    .staffmanagement  .page-title-area{
+        padding-top: 80px !important;
+        padding-bottom: 80px !important;
+    }
+    .page-title-area{
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+    }
+    .pagetitlearea{
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+    }
     .pagetitlearea {  
         background-size: contain; 
     }
