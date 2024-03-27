@@ -7440,3 +7440,7 @@ abbr[title] {
   background-image: -webkit-linear-gradient(0deg, rgb(79 185 255) 0%, rgb(156 247 64) 100%);
   background-image: -ms-linear-gradient(0deg, rgb(255, 79, 88) 0%, rgb(255, 180, 0) 100%);
 }
+.contact-div .page-title-area{
+  background-position: center;
+  background-size: cover;
+}
