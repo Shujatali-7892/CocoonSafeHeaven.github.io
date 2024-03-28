@@ -714,7 +714,15 @@ label {
     border: 3px solid #fff;
   }
 }
-
+.index-div .slide-overlay::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgba(204, 204, 204, 0.282);
+}
 .slide-overlay::before {
   position: absolute;
   content: "";
