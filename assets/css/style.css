@@ -721,7 +721,7 @@ label {
   width: 100%;
   left: 0;
   top: 0;
-  background-color: rgba(204, 204, 204, 0.282);
+  background-color: rgba(255, 255, 255, 0);
 }
 .slide-overlay::before {
   position: absolute;
